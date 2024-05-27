@@ -18,3 +18,5 @@ INSERT INTO admin_table
 Values ("xxx", "rrr"), (işte isim amk);
 
 and to check again select * from whatever the fuck table you are using.
+
+USE CTRL+F5 IF THE PAGE DIDNT LOADED!
