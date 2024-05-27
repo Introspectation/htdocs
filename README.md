@@ -11,3 +11,10 @@ CREATE TABLE admin_table (
     username VARCHAR(255) NOT NULL PRIMARY KEY,
     password VARCHAR(255) NOT NULL
 );
+
+
+To insert some admin_table use:
+INSERT INTO admin_table
+Values ("xxx", "rrr"), (işte isim amk);
+
+and to check again select * from whatever the fuck table you are using.
