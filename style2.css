@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    border-bottom: 2px solid #000;
+}
+.video-list {
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.btn {
+    padding: 6px 12px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-red {
+    background-color: #dc3545;
+}
+.btn-green {
+    background-color: #28a745;
+}
+.add-btn {
+    text-align: right;
+    margin: 20px;
+}
