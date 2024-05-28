@@ -42,7 +42,15 @@ function getYoutubeVideoID($url) {
     <title>Video Admin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style2.css">
+    <script>
+        function confirmDelete(videoId) {
+            if (confirm("Are you sure you want to remove this video?")) {
+                window.location.href = "page2.php?delete=" + videoId;
+            }
+        }
+    </script>
 </head>
+
 <script>
 function confirmDelete(videoId) {
     if (confirm("Are you sure you want to remove this video?")) {
@@ -70,7 +78,7 @@ function confirmDelete(videoId) {
                 <td><?php echo htmlspecialchars($row['description']); ?></td>
                 <td><?php echo htmlspecialchars($row['date_added']); ?></td>
                 <td>
-                    <a href="#" class="btn">Güncelle</a>
+                <a href="page4.php?id=<?php echo $row['id']; ?>" class="btn">Güncelle</a>
                     <a href="javascript:void(0);" onclick="confirmDelete(<?php echo $row['id']; ?>);" class="btn btn-red">X</a>
 
                 </td>
